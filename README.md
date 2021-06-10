@@ -13,7 +13,6 @@ QueryBuilder - строитель запросов для работы с Баз
 * [5. DELETE Statement](#block5)
 
 
-* [1. Установка](#block1)
 
 <a name="block1"></a>
 ### 1. Установка и Конфигурация БД [↑](#index_block)
@@ -37,8 +36,6 @@ return [
 ];
 ```
 
-
-* [2. SELECT Statement](#block1)
 
 <a name="block2"></a>
 ### 2. SELECT Statement [↑](#index_block)
