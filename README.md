@@ -16,8 +16,17 @@ QueryBuilder - строитель запросов для работы с Баз
 
 <a name="block1"></a>
 ### 1. Установка и Конфигурация БД [↑](#index_block)
-The recommended way to install the SQL Query Builder is through [Composer](http://getcomposer.org). Run the following command to install it:
+Для установка компонента надо настроить БД, он находтся в файле config.php:
 
 ```sh
-php composer.phar require nilportugues/sql-query-builder
+<?php
+return [
+	"database" => [
+		"database" => "module-one",
+		"username" => "root",
+		"password" => "root",
+		"connection" => "mysql:host=localhost",
+		"charset" => "utf8",
+	]
+];
 ```
