@@ -61,3 +61,23 @@ $oneUser = $QueryBulider->getOne('users', $id);
 ```sh
 SELECT * FROM users WHERE id=id
 ```
+
+<a name="block3"></a>
+### 2. INSERT Statement [↑](#index_block)
+
+Применение: INSERT
+
+```sh
+<?php
+$QueryBulider = include "database/start.php";
+
+$QueryBulider->insert('users', [
+	'name' => $name,
+	'surname' => $surname,
+	'phone' => $phone
+]);
+```
+Выход:
+```sh
+INSERT INTO users (name, surname, phone) VALUES (name, surname, phone)	
+```
