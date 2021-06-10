@@ -15,7 +15,7 @@ QueryBuilder - строитель запросов для работы с Баз
 * [1. Установка](#block1)
 
 <a name="block1"></a>
-## 1. Установка и Конфигурация БД [↑](#index_block)
+### 1. Установка и Конфигурация БД [↑](#index_block)
 The recommended way to install the SQL Query Builder is through [Composer](http://getcomposer.org). Run the following command to install it:
 
 ```sh
