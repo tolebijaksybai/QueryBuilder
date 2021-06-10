@@ -11,26 +11,11 @@ QueryBuilder - строитель запросов для работы с Баз
 * [4. UPDATE Statement](#block4)
 * [5. DELETE Statement](#block5)
 
-<a name="index_block"></a>
 
-## DSQL Is Simple and Powerful
-
-``` php
-$query = new Atk4\Dsql\Query();
-$query  ->table('employees')
-        ->where('birth_date','1961-05-02')
-        ->field('count(*)')
-        ;
-echo "Employees born on May 2, 1961: ".$query->getOne();
-```
-
-If the basic query is not fun, how about more complex one?
-
-
-* [1. Installation](#block1)
+* [1. Установка](#block1)
 
 <a name="block1"></a>
-## 1. Installation [↑](#index_block)
+## 1. Установка и Конфигурация БД [↑](#index_block)
 The recommended way to install the SQL Query Builder is through [Composer](http://getcomposer.org). Run the following command to install it:
 
 ```sh
