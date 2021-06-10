@@ -31,3 +31,14 @@ echo "Employees born on May 2, 1961: ".$query->getOne();
 ```
 
 If the basic query is not fun, how about more complex one?
+
+
+* [1. Installation](#block1)
+
+<a name="block1"></a>
+## 1. Installation [↑](#index_block)
+The recommended way to install the SQL Query Builder is through [Composer](http://getcomposer.org). Run the following command to install it:
+
+```sh
+php composer.phar require nilportugues/sql-query-builder
+```
