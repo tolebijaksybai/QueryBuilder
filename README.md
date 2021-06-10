@@ -42,10 +42,11 @@ return [
 <?php
 $QueryBulider = include "database/start.php";
 
+// возвращает массив
 $users = $QueryBulider->getAll('users');
 ```
 Выход:
 ```sh
 SELECT * FROM users
 ```
-* Select one
+Применение: * Select one
