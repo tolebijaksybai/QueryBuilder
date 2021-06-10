@@ -17,7 +17,34 @@ QueryBuilder - строитель запросов для работы с Баз
 
 <a name="block1"></a>
 ### 1. Установка и Конфигурация БД [↑](#index_block)
-Для установка компонента надо настроить БД, он находтся в файле config.php:
+
+	* Скачать файл .zip
+	* Разархивируйте zip-файл
+	* Все нужные файли находится в database/
+
+Для установка компонента надо настроить БД, он находтся в файле database/config.php:
+
+```sh
+<?php
+return [
+	"database" => [
+		"database" => "module-one",
+		"username" => "root",
+		"password" => "root",
+		"connection" => "mysql:host=localhost",
+		"charset" => "utf8",
+	]
+];
+```
+
+
+* [2. SELECT Statement](#block1)
+
+<a name="block2"></a>
+### 2. SELECT Statement [↑](#index_block)
+Есть два вида получение данный из БД: 
+	* Select all
+	* Select one
 
 ```sh
 <?php
