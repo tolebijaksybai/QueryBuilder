@@ -49,4 +49,15 @@ $users = $QueryBulider->getAll('users');
 ```sh
 SELECT * FROM users
 ```
-Применение: * Select one
+Применение: Select one
+
+```sh
+<?php
+$QueryBulider = include "database/start.php";
+
+$oneUser = $QueryBulider->getOne('users', $id);
+```
+Выход:
+```sh
+SELECT * FROM users WHERE id=id
+```
