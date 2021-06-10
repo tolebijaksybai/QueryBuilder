@@ -18,7 +18,7 @@ $users = $db->get('users', ['id', '>=', 0]);
 $user_id = $db->get('users', ['id', '=', 5]);
 </pre>
 
-
+<a name="index_block"></a>
 ## DSQL Is Simple and Powerful
 
 ``` php
