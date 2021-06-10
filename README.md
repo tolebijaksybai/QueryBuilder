@@ -5,8 +5,8 @@ QueryBuilder - строитель запросов для работы с Баз
 
 * [1. Установка](#block1)
 * [2. SELECT Statement](#block2)
-        * [2.1. SELECT All Statement](#block2.1)     
-        * [2.2. SELECT One Statement](#block2.2)  
+    * [2.1. SELECT All Statement](#block2.1)     
+    * [2.2. SELECT One Statement](#block2.2)  
 * [3. SELECT One Statement](#block3)
 * [4. INSERT Statement](#block4)
 * [5. UPDATE Statement](#block5)
