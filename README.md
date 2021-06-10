@@ -39,19 +39,16 @@ return [
 
 <a name="block2"></a>
 ### 2. SELECT Statement [↑](#index_block)
-Есть два вида получение данный из БД: 
-	* Select all
-	* Select one
+Применение: Select all
 
 ```sh
 <?php
-return [
-	"database" => [
-		"database" => "module-one",
-		"username" => "root",
-		"password" => "root",
-		"connection" => "mysql:host=localhost",
-		"charset" => "utf8",
-	]
-];
+$QueryBulider = include "database/start.php";
+
+$users = $QueryBulider->getAll('users');
 ```
+Выход:
+```sh
+SELECT * FROM users
+```
+* Select one
