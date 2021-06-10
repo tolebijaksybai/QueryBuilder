@@ -4,11 +4,11 @@ QueryBuilder - строитель запросов для работы с Баз
 <a name="index_block"></a>
 
 * [1. Установка](#block1)
-* [2. SELECT All](#block2)
-* [3. SELECT One](#block3)
-* [4. INSERT](#block4)
-* [5. UPDATE](#block5)
-* [6. DELETE](#block6)
+* [2. SELECT All Statement](#block2)
+* [3. SELECT One Statement](#block3)
+* [4. INSERT Statement](#block4)
+* [5. UPDATE Statement](#block5)
+* [6. DELETE Statement](#block6)
 
 <a name="index_block"></a>
 
