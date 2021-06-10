@@ -1,4 +1,4 @@
-# QueryBuilder
+# QueryBuilder PDO
 QueryBuilder - строитель запросов для работы с Базой данных
 
 <a name="index_block"></a>
