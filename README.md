@@ -1,22 +1,14 @@
 # QueryBuilder
 QueryBuilder - строитель запросов для работы с Базой данных
 
-Для работы:
-- прописываем конфигурационные данные базы данных в файле init.php
-- подключаем init.php
+<a name="index_block"></a>
 
-Пример использования:
-<pre>
-require_once 'init.php';
-
-$db = Database::getInstance();
-
-//получаем всех пользователей из таблицы
-$users = $db->get('users', ['id', '>=', 0]);
-
-//получаем пользователя по id
-$user_id = $db->get('users', ['id', '=', 5]);
-</pre>
+* [1. Установка](#block1)
+* [2. SELECT All](#block2)
+* [3. SELECT One](#block3)
+* [4. INSERT](#block4)
+* [5. UPDATE](#block5)
+* [6. DELETE](#block6)
 
 <a name="index_block"></a>
 
