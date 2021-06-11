@@ -102,3 +102,19 @@ $QueryBulider->insert('users', [
 ```sh
 INSERT INTO users (name, surname, phone) VALUES (name, surname, phone)	
 ```
+
+<a name="block5"></a>
+### 5. DELETE Statement [↑](#index_block)
+
+Применение: DELETE
+
+```sh
+<?php
+$QueryBulider = include "database/start.php";
+
+$QueryBulider->delate('users', $id);
+```
+Выход:
+```sh
+DELETE FROM users WHERE id=id
+```
