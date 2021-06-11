@@ -14,11 +14,11 @@ QueryBuilder - строитель запросов для работы с Баз
 
 <a name="block1"></a>
 ### 1. Установка и Конфигурация БД [↑](#index_block)
-
-	* Скачать файл <a href="https://github.com/tolebijaksybai/QueryBuilder/archive/refs/heads/main.zip">.zip</a>  
-	* Разархивируйте zip-файл
-	* Все нужные файли находится в database/
-
+<pre>
+* Скачать файл <a href="https://github.com/tolebijaksybai/QueryBuilder/archive/refs/heads/main.zip">.zip</a> 
+* Разархивируйте zip-файл
+* Все нужные файли находится в database/
+</pre>
 Для установка компонента надо настроить БД, он находтся в файле database/config.php:
 
 ```sh
